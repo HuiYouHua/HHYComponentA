@@ -11,9 +11,9 @@
 
 @implementation Target_HHYComponentA
 
-- (UIViewController *)Action_HHYComponentA:(NSDictionary *)params {
-//    HHYComponentA *VC = [[HHYComponentA alloc] init];
-    return nil;
-}
+//- (UIViewController *)Action_HHYComponentA:(NSDictionary *)params {
+////    HHYComponentA *VC = [[HHYComponentA alloc] init];
+//    return nil;
+//}
 
 @end

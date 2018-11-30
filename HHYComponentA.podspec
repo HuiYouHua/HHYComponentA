@@ -31,13 +31,13 @@ Pod::Spec.new do |s|
   # 代码文件
   # 分层文件夹
 	  s.subspec 'HHYComponentA' do |hhy|
-      hhy.subspec 'Controller' do |c|
-	     c.source_files = 'HHYComponentA/HHYComponentA/Controller/**/*.{h,m}'
-	    # gcd.public_header_files = 'Classes/TimerHelper/GCD/**/*.h'
-      # hhy.subspec 'CTMediaCategory' do |ctm|
-      #  ctm.source_files = 'HHYComponentA/HHYComponentA/CTMediaCategory/**/*.{h,m}'
-      #  # gcd.public_header_files = 'Classes/TimerHelper/GCD/**/*.h'
-       end
+     #  hhy.subspec 'Controller' do |c|
+	    #  c.source_files = 'HHYComponentA/HHYComponentA/Controller/**/*.{h,m}'
+	    # # gcd.public_header_files = 'Classes/TimerHelper/GCD/**/*.h'
+     #  # hhy.subspec 'CTMediaCategory' do |ctm|
+     #  #  ctm.source_files = 'HHYComponentA/HHYComponentA/CTMediaCategory/**/*.{h,m}'
+     #  #  # gcd.public_header_files = 'Classes/TimerHelper/GCD/**/*.h'
+     #   end
     
 
  
