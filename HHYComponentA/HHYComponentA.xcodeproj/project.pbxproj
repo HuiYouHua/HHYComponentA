@@ -13,8 +13,8 @@
 		35F8FFAA21B0D3C700A068E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F8FFA821B0D3C700A068E1 /* LaunchScreen.storyboard */; };
 		35F8FFAD21B0D3C700A068E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F8FFAC21B0D3C700A068E1 /* main.m */; };
 		35F8FFBA21B0E10200A068E1 /* CTMediator+HHYComponentA.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F8FFB921B0E10200A068E1 /* CTMediator+HHYComponentA.m */; };
-		35F8FFBE21B10A4C00A068E1 /* HHYComponentA.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F8FFBD21B10A4C00A068E1 /* HHYComponentA.m */; };
-		35F8FFC521B10D5E00A068E1 /* Target_HHYComponentA.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F8FFC421B10D5E00A068E1 /* Target_HHYComponentA.m */; };
+		35F8FFCA21B10DBE00A068E1 /* Target_HHYComponentA.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F8FFC621B10DBE00A068E1 /* Target_HHYComponentA.m */; };
+		35F8FFCB21B10DBE00A068E1 /* HHYComponentA.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F8FFC821B10DBE00A068E1 /* HHYComponentA.m */; };
 		4E554C05E054D4CC58FA3AFB /* libPods-HHYComponentA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E798EEEBAD08FA6B27F09A /* libPods-HHYComponentA.a */; };
 /* End PBXBuildFile section */
 
@@ -30,10 +30,10 @@
 		35F8FFAC21B0D3C700A068E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		35F8FFB821B0E10200A068E1 /* CTMediator+HHYComponentA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+HHYComponentA.h"; sourceTree = "<group>"; };
 		35F8FFB921B0E10200A068E1 /* CTMediator+HHYComponentA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+HHYComponentA.m"; sourceTree = "<group>"; };
-		35F8FFBC21B10A4C00A068E1 /* HHYComponentA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHYComponentA.h; sourceTree = "<group>"; };
-		35F8FFBD21B10A4C00A068E1 /* HHYComponentA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHYComponentA.m; sourceTree = "<group>"; };
-		35F8FFC321B10D5E00A068E1 /* Target_HHYComponentA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_HHYComponentA.h; sourceTree = "<group>"; };
-		35F8FFC421B10D5E00A068E1 /* Target_HHYComponentA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_HHYComponentA.m; sourceTree = "<group>"; };
+		35F8FFC621B10DBE00A068E1 /* Target_HHYComponentA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_HHYComponentA.m; sourceTree = "<group>"; };
+		35F8FFC721B10DBE00A068E1 /* Target_HHYComponentA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_HHYComponentA.h; sourceTree = "<group>"; };
+		35F8FFC821B10DBE00A068E1 /* HHYComponentA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHYComponentA.m; sourceTree = "<group>"; };
+		35F8FFC921B10DBE00A068E1 /* HHYComponentA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHYComponentA.h; sourceTree = "<group>"; };
 		5CEE48656DA59509E14847EE /* Pods-HHYComponentA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHYComponentA.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHYComponentA/Pods-HHYComponentA.release.xcconfig"; sourceTree = "<group>"; };
 		D5230E9B78E5D13E92C0D06C /* Pods-HHYComponentA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHYComponentA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHYComponentA/Pods-HHYComponentA.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,10 +97,6 @@
 		35F8FFBB21B10A4C00A068E1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				35F8FFC321B10D5E00A068E1 /* Target_HHYComponentA.h */,
-				35F8FFC421B10D5E00A068E1 /* Target_HHYComponentA.m */,
-				35F8FFBC21B10A4C00A068E1 /* HHYComponentA.h */,
-				35F8FFBD21B10A4C00A068E1 /* HHYComponentA.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -108,6 +104,10 @@
 		35F8FFBF21B10B8A00A068E1 /* Target */ = {
 			isa = PBXGroup;
 			children = (
+				35F8FFC921B10DBE00A068E1 /* HHYComponentA.h */,
+				35F8FFC821B10DBE00A068E1 /* HHYComponentA.m */,
+				35F8FFC721B10DBE00A068E1 /* Target_HHYComponentA.h */,
+				35F8FFC621B10DBE00A068E1 /* Target_HHYComponentA.m */,
 			);
 			path = Target;
 			sourceTree = "<group>";
@@ -225,11 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F8FFCA21B10DBE00A068E1 /* Target_HHYComponentA.m in Sources */,
 				35F8FFBA21B0E10200A068E1 /* CTMediator+HHYComponentA.m in Sources */,
-				35F8FFC521B10D5E00A068E1 /* Target_HHYComponentA.m in Sources */,
 				35F8FFAD21B0D3C700A068E1 /* main.m in Sources */,
 				35F8FF9F21B0D3C600A068E1 /* AppDelegate.m in Sources */,
-				35F8FFBE21B10A4C00A068E1 /* HHYComponentA.m in Sources */,
+				35F8FFCB21B10DBE00A068E1 /* HHYComponentA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
