@@ -7,13 +7,13 @@
 //
 
 #import "Target_HHYComponentA.h"
-#import "HHYComponentA.h"
+//#import "HHYComponentA.h"
 
 @implementation Target_HHYComponentA
 
 - (UIViewController *)Action_HHYComponentA:(NSDictionary *)params {
-    HHYComponentA *VC = [[HHYComponentA alloc] init];
-    return VC;
+//    HHYComponentA *VC = [[HHYComponentA alloc] init];
+    return nil;
 }
 
 @end

@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   # 项目名称
   s.name         = "HHYComponentA"
   # 项目版本号
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   # 项目摘要
   s.summary      = "HHYComponentA"
   # 详细描述
@@ -31,18 +31,19 @@ Pod::Spec.new do |s|
   # 代码文件
   # 分层文件夹
 	  s.subspec 'HHYComponentA' do |hhy|
-	   hhy.source_files = 'HHYComponentA/HHYComponentA/HHYComponentA.{h,m}'
+      hhy.subspec 'Controller' do |c|
+	     c.source_files = 'HHYComponentA/HHYComponentA/Controller/**/*.{h,m}'
 	    # gcd.public_header_files = 'Classes/TimerHelper/GCD/**/*.h'
       # hhy.subspec 'CTMediaCategory' do |ctm|
       #  ctm.source_files = 'HHYComponentA/HHYComponentA/CTMediaCategory/**/*.{h,m}'
       #  # gcd.public_header_files = 'Classes/TimerHelper/GCD/**/*.h'
-      # end
+       end
     
 
  
       hhy.subspec 'Target' do |tar|
        tar.source_files = 'HHYComponentA/HHYComponentA/Target/Target_HHYComponentA.{h,m}'
-       #tar.dependency "HHYComponentA/HHYComponentA/HHYComponentA.h"
+       #tar.dependency "HHYComponentA/HHYComponentA/Controller"
        # gcd.public_header_files = 'Classes/TimerHelper/GCD/**/*.h'
       end
   	
