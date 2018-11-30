@@ -12,7 +12,7 @@
 
 @interface Target_HHYComponentA : NSObject
 
-//- (UIViewController *)Action_HHYComponentA:(NSDictionary *)params;
+- (UIViewController *)Action_HHYComponentA:(NSDictionary *)params;
 
 @end
 
