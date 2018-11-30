@@ -30,26 +30,27 @@ Pod::Spec.new do |s|
 
   # 代码文件
   # 分层文件夹
-  s.subspec 'HHYComponentA' do |hhy1|
-	  hhy1.subspec 'HHYComponentA' do |hhy2|
-	   hhy2.source_files = 'HHYComponentA/HHYComponentA/HHYComponentA.{h,m}'
+	  s.subspec 'HHYComponentA' do |hhy|
+	   hhy.source_files = 'HHYComponentA/HHYComponentA/HHYComponentA.{h,m}'
 	    # gcd.public_header_files = 'Classes/TimerHelper/GCD/**/*.h'
-  	end
+      # hhy.subspec 'CTMediaCategory' do |ctm|
+      #  ctm.source_files = 'HHYComponentA/HHYComponentA/CTMediaCategory/**/*.{h,m}'
+      #  # gcd.public_header_files = 'Classes/TimerHelper/GCD/**/*.h'
+      # end
+    
 
-  	hhy1.subspec 'HHYComponentA' do |hhy2|
-      hhy2.subspec 'CTMediaCategory' do |ctm|
-       ctm.source_files = 'HHYComponentA/HHYComponentA/CTMediaCategory/*.{h,m}'
+ 
+      hhy.subspec 'Target' do |tar|
+       tar.source_files = 'HHYComponentA/HHYComponentA/Target/**/*.{h,m}'
+       tar.dependency "HHYComponentA/HHYComponentA/HHYComponentA.h"
        # gcd.public_header_files = 'Classes/TimerHelper/GCD/**/*.h'
       end
-    end
+  	
 
-    hhy1.subspec 'HHYComponentA' do |hhy2|
-      hhy2.subspec 'Target' do |tar|
-       tar.source_files = 'HHYComponentA/HHYComponentA/Target/*.{h,m}'
-       # gcd.public_header_files = 'Classes/TimerHelper/GCD/**/*.h'
-      end
-    end
-  end
+
+      
+   
+end
 
 
   #s.dependency "CTMediator", "~> 0.0.1"
