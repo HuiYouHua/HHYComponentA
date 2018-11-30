@@ -41,8 +41,8 @@ Pod::Spec.new do |s|
     
 
  
-      hhy.subspec 'Target' do |tar|
-       tar.source_files = 'HHYComponentA/HHYComponentA/Target/Target_HHYComponentA.{h,m}'
+      hhy.subspec 'Target' do |t|
+       t.source_files = 'HHYComponentA/HHYComponentA/Target/**/*.{h,m}'
        #tar.dependency "HHYComponentA/HHYComponentA/Controller"
        # gcd.public_header_files = 'Classes/TimerHelper/GCD/**/*.h'
       end
