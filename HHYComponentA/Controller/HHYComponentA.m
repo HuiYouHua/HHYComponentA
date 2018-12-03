@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"name: %@",self.user.name);
+    NSLog(@"age: %ld",(long)self.user.age);
 }
 
 

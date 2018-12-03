@@ -7,12 +7,13 @@
 //
 
 #import "CTMediator+HHYComponentA.h"
+#import "HHYUser.h"
 
 @implementation CTMediator (HHYComponentA)
 
-- (UIViewController *)ModuleB_HHYComponentAWithCallback:(void(^)(NSString *result))callback {
+- (UIViewController *)ModuleB_HHYComponentA:(HHYUser *)user {
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
-    params[@"callback"] = callback;
+    params[@"user"] = user;
     return [self performTarget:@"HHYComponentA" action:@"HHYComponentA" params:params shouldCacheTarget:NO];
 }
 

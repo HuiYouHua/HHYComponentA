@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   # 项目名称
   s.name         = "HHYComponentA"
   # 项目版本号
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   # 项目摘要
   s.summary      = "HHYComponentA"
   # 详细描述
@@ -30,27 +30,31 @@ Pod::Spec.new do |s|
 
   # 代码文件
   # 分层文件夹
-      hhy.subspec 'Controller' do |c|
-	     c.source_files = 'HHYComponentA/Controller/**/*.{h,m}'
-	    # gcd.public_header_files = 'Classes/TimerHelper/GCD/**/*.h'
-      # hhy.subspec 'CTMediaCategory' do |ctm|
-      #  ctm.source_files = 'HHYComponentA/HHYComponentA/CTMediaCategory/**/*.{h,m}'
-      #  # gcd.public_header_files = 'Classes/TimerHelper/GCD/**/*.h'
-       end
-    
+  #s.default_subspec = 'HHYComponentA'
+	s.subspec 'Controller' do |c|
+	 	c.source_files = 'HHYComponentA/Controller/**/*.{h,m}'
+		c.dependency "HHYComponentA/Model"
+	end
 
- 
-      hhy.subspec 'Target' do |t|
-       t.source_files = 'HHYComponentA/Target/**/*.{h,m}'
-       #tar.dependency "HHYComponentA/HHYComponentA/Controller"
-       # gcd.public_header_files = 'Classes/TimerHelper/GCD/**/*.h'
-      end
+
+
+	s.subspec 'Target' do |t|
+		t.source_files = 'HHYComponentA/Target/**/*.{h,m}'
+		t.dependency "HHYComponentA/Controller"
+	end
   	
+	s.subspec 'CTMediaCategory' do |ct|
+      ct.source_files = "HHYComponentA/CTMediaCategory/**/*.{h,m}"
+  	end
 
-
+	s.subspec 'Model' do |m|
+      m.source_files = "HHYComponentA/Model/**/*.{h,m}"
+  	end
       
-   
-end
+
+   s.dependency 'HHYCTMediator', '~> 0.0.3'
+   s.requires_arc     = true
+
 
 
   #s.dependency "CTMediator", "~> 0.0.1"

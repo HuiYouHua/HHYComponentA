@@ -9,10 +9,13 @@
 #import "Target_HHYComponentA.h"
 #import "HHYComponentA.h"
 
+#import "HHYUser.h"
+
 @implementation Target_HHYComponentA
 
 - (UIViewController *)Action_HHYComponentA:(NSDictionary *)params {
     HHYComponentA *VC = [[HHYComponentA alloc] init];
+    VC.user = params[@"user"];
     return VC;
 }
 

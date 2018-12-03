@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "HHYUser.h"
 @interface HHYComponentA : UIViewController
 
+@property (nonatomic, strong) HHYUser *user;
 
 @end
 

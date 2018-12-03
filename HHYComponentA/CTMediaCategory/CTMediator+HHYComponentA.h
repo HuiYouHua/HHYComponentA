@@ -10,9 +10,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class HHYUser;
 @interface CTMediator (HHYComponentA)
 
-- (UIViewController *)ModuleB_HHYComponentAWithCallback:(void(^)(NSString *result))callback;
+- (UIViewController *)ModuleB_HHYComponentA:(HHYUser *)user;
 
 @end
 
