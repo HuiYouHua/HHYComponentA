@@ -12,7 +12,7 @@
 		35F8FFA721B0D3C700A068E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F8FFA621B0D3C700A068E1 /* Assets.xcassets */; };
 		35F8FFAA21B0D3C700A068E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F8FFA821B0D3C700A068E1 /* LaunchScreen.storyboard */; };
 		35F8FFAD21B0D3C700A068E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F8FFAC21B0D3C700A068E1 /* main.m */; };
-		35F8FFD321B10E5800A068E1 /* HHYComponentA.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F8FFCF21B10E5800A068E1 /* HHYComponentA.m */; };
+		35F8FFD321B10E5800A068E1 /* HHYComponentAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F8FFCF21B10E5800A068E1 /* HHYComponentAViewController.m */; };
 		35F9C21421B4D27C00EEAAFF /* Target_HHYComponentA.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F9C21321B4D27C00EEAAFF /* Target_HHYComponentA.m */; };
 		35F9C21721B4D28500EEAAFF /* CTMediator+HHYComponentA.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F9C21621B4D28500EEAAFF /* CTMediator+HHYComponentA.m */; };
 		35F9C21B21B4D2D000EEAAFF /* HHYUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F9C21A21B4D2D000EEAAFF /* HHYUser.m */; };
@@ -29,14 +29,15 @@
 		35F8FFA921B0D3C700A068E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35F8FFAB21B0D3C700A068E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35F8FFAC21B0D3C700A068E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		35F8FFCC21B10E5800A068E1 /* HHYComponentA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHYComponentA.h; sourceTree = "<group>"; };
-		35F8FFCF21B10E5800A068E1 /* HHYComponentA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHYComponentA.m; sourceTree = "<group>"; };
+		35F8FFCC21B10E5800A068E1 /* HHYComponentAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHYComponentAViewController.h; sourceTree = "<group>"; };
+		35F8FFCF21B10E5800A068E1 /* HHYComponentAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHYComponentAViewController.m; sourceTree = "<group>"; };
 		35F9C21221B4D27C00EEAAFF /* Target_HHYComponentA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_HHYComponentA.h; sourceTree = "<group>"; };
 		35F9C21321B4D27C00EEAAFF /* Target_HHYComponentA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_HHYComponentA.m; sourceTree = "<group>"; };
 		35F9C21521B4D28500EEAAFF /* CTMediator+HHYComponentA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+HHYComponentA.h"; sourceTree = "<group>"; };
 		35F9C21621B4D28500EEAAFF /* CTMediator+HHYComponentA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+HHYComponentA.m"; sourceTree = "<group>"; };
 		35F9C21921B4D2D000EEAAFF /* HHYUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHYUser.h; sourceTree = "<group>"; };
 		35F9C21A21B4D2D000EEAAFF /* HHYUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHYUser.m; sourceTree = "<group>"; };
+		35F9C21C21B4F5CA00EEAAFF /* HHYComponentA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHYComponentA.h; sourceTree = "<group>"; };
 		5CEE48656DA59509E14847EE /* Pods-HHYComponentA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHYComponentA.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHYComponentA/Pods-HHYComponentA.release.xcconfig"; sourceTree = "<group>"; };
 		D5230E9B78E5D13E92C0D06C /* Pods-HHYComponentA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHYComponentA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHYComponentA/Pods-HHYComponentA.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +77,7 @@
 			children = (
 				35F8FF9D21B0D3C600A068E1 /* AppDelegate.h */,
 				35F8FF9E21B0D3C600A068E1 /* AppDelegate.m */,
+				35F9C21C21B4F5CA00EEAAFF /* HHYComponentA.h */,
 				35F8FFBF21B10B8A00A068E1 /* Target */,
 				35F8FFBB21B10A4C00A068E1 /* Controller */,
 				35F8FFB721B0E0D700A068E1 /* CTMediaCategory */,
@@ -101,8 +103,8 @@
 		35F8FFBB21B10A4C00A068E1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				35F8FFCC21B10E5800A068E1 /* HHYComponentA.h */,
-				35F8FFCF21B10E5800A068E1 /* HHYComponentA.m */,
+				35F8FFCC21B10E5800A068E1 /* HHYComponentAViewController.h */,
+				35F8FFCF21B10E5800A068E1 /* HHYComponentAViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -243,7 +245,7 @@
 				35F9C21721B4D28500EEAAFF /* CTMediator+HHYComponentA.m in Sources */,
 				35F8FFAD21B0D3C700A068E1 /* main.m in Sources */,
 				35F8FF9F21B0D3C600A068E1 /* AppDelegate.m in Sources */,
-				35F8FFD321B10E5800A068E1 /* HHYComponentA.m in Sources */,
+				35F8FFD321B10E5800A068E1 /* HHYComponentAViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

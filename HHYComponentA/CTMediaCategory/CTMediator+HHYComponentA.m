@@ -11,7 +11,7 @@
 
 @implementation CTMediator (HHYComponentA)
 
-- (UIViewController *)ModuleB_HHYComponentA:(HHYUser *)user {
+- (UIViewController *)HHYComponentA:(HHYUser *)user {
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
     params[@"user"] = user;
     return [self performTarget:@"HHYComponentA" action:@"HHYComponentA" params:params shouldCacheTarget:NO];

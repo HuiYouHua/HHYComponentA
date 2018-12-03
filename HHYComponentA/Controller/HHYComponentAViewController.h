@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HHYComponentAViewController.h
 //  HHYComponentA
 //
 //  Created by 华惠友 on 2018/11/30.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "HHYUser.h"
-@interface HHYComponentA : UIViewController
+@interface HHYComponentAViewController : UIViewController
 
 @property (nonatomic, strong) HHYUser *user;
 

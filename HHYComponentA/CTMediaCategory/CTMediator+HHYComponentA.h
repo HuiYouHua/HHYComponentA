@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @class HHYUser;
 @interface CTMediator (HHYComponentA)
 
-- (UIViewController *)ModuleB_HHYComponentA:(HHYUser *)user;
+- (UIViewController *)HHYComponentA:(HHYUser *)user;
 
 @end
 
