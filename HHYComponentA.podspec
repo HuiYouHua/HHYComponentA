@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   # 项目名称
   s.name         = "HHYComponentA"
   # 项目版本号
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   # 项目摘要
   s.summary      = "HHYComponentA"
   # 详细描述
@@ -23,6 +23,8 @@ Pod::Spec.new do |s|
 
   # git源码地址
   s.source       = { :git => "https://github.com/HuiYouHua/HHYComponentA.git", :tag => "#{s.version}" }
+
+	s.source_files  = "HHYComponentA/HHYComponentA.h"
 
 	s.subspec 'Controller' do |c|
 	 	c.source_files = 'HHYComponentA/Controller/**/*.{h,m}'
@@ -43,7 +45,7 @@ Pod::Spec.new do |s|
 	  m.source_files = "HHYComponentA/Model/**/*.{h,m}"
 		end
       
-
+   s.public_header_files = "HHYComponentA/HHYComponentA.h"
    s.dependency 'HHYCTMediator', '~> 0.0.3'
    s.requires_arc     = true
 
