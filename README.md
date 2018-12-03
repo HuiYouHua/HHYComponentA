@@ -1,7 +1,7 @@
 # HHYComponentA
 组件化开发---组件A
 
-组件化开发---主工程
+简书教程传送门：[教你从零到一搭建组件化项目](https://www.jianshu.com/p/267fc922897d)
 
 [主工程](https://github.com/HuiYouHua/HHYMainComponent)
 
