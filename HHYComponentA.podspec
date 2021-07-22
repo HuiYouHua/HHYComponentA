@@ -4,13 +4,13 @@ Pod::Spec.new do |s|
   # 项目名称
   s.name         = "HHYComponentA"
   # 项目版本号
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   # 项目摘要
   s.summary      = "HHYComponentA"
   # 详细描述
   s.description  = "HHYComponentA远程仓库"
   # 仓库主页地址
-  s.homepage     = "https://github.com/HuiYouHua/HHYComponentA"
+  s.homepage     = "https://github.com/HuiYouHua/HHYSpecs"
 
   # 证书
   s.license      = { :type => "MIT", :file => "LICENSE" }
