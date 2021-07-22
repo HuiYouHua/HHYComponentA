@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
     NSLog(@"name: %@",self.user.name);
     NSLog(@"age: %ld",(long)self.user.age);
 }
