@@ -3,7 +3,7 @@ import fileinput
 
 # ======================  edit by yourself  ======================
 sources = [
-          'https://github.com/HuiYouHua/HHYComponentA.git',
+          'https://github.com/HuiYouHua/HHYComponentA.git'
           ]
 
 project_name = 'HHYComponentA'
@@ -45,7 +45,7 @@ def podCommandEdit():
 
     else:
         lib_command = 'pod lib lint'
-
+    lib_command += ' --allow-warnings --use-libraries  --skip-import-validation'
 
 def updateVersion():
     f = open(spec_file_path, 'r+')
